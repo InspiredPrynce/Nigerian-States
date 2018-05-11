@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS `states`(
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=38; 
 
 -- -- Dumping data for table `states` -- 
-INSERT INTO `states` (`state_id`, `name`, `state_id`) VALUES 
+INSERT INTO `states` (`id`, `name`, `state_id`) VALUES 
 	(1, 'Abia State', 'ABIA'), 
 	(2, 'Adamawa State', 'ADAMAWA'), 
 	(3, 'Akwa Ibom State', 'AKWA_IBOM'), 
